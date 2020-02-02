@@ -1,0 +1,36 @@
+{
+  "name": "triangle-tracker",
+  "version": "1.0.0",
+  "description": "triangles bitch",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development",
+    "lint": "eslint src/*.js",
+    "debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "type": "module",
+  "author": "faz00li",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.7.1",
+    "eslint-loader": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
